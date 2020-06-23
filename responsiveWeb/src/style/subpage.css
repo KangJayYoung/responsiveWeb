@@ -1,0 +1,89 @@
+.check-section-center{
+    text-align:-webkit-center;
+    position: relative;
+}
+
+.check-button{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+
+.check-button-text{
+    display: inline-flex;
+    position: absolute;
+    left: 26%;
+    top: 28%;
+    color: #fff;
+    font-size: 1vw;
+}
+
+.check-img-button{
+    width: 5%;
+    display: inline-flex;
+    position: absolute;
+    top: 39%;
+    left: 17%;
+}
+
+.check-img{
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+
+
+.sefcheck-img:hover{
+    cursor: pointer;
+    width: 20%;
+}
+
+.img-blok{
+    display: block;
+}
+
+.slefcheck-button-top{
+    width: 18%;
+}
+
+.check-mosikomi-button{
+    width: 1%;
+    display: inline-flex;
+    position: absolute;
+    top: 102%;
+    left: 44.1%;
+}
+
+.check-mosikomi-text{
+    display: inline-flex;
+    position: absolute;
+    color: rgb(102, 102, 102);
+    left: 45.8%;
+    top: 101%;
+    font-size: 1vw;
+}
+
+.mosikomi-button-text-location{
+    top: 30%;
+    left: 28%;
+}
+
+.tanmatulist-bution-text-loction{
+    left: 33%;
+    top: 29%;
+}
+
+.footerlist-left{
+    padding-right: 10px;
+    border-right: 1px rgb(102, 102, 102) solid;
+}
+
+.footerlist-right{
+    padding-left: 10px;
+}
+
+.footerlist-middle{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px rgb(102, 102, 102) solid;
+}
