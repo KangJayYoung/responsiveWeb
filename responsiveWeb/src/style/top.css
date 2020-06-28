@@ -1,145 +1,143 @@
 /* Main Img */
-.topimg-index{
-    z-index: -1;
-
+.topimg-index {
+  z-index: -1;
 }
-.topimg-postion-top{
-    position: relative;
-  top:-3%;
+.topimg-postion-top {
+  position: relative;
+  top: -3%;
 }
-.topimg-keitaikensyou{
-    position: absolute;
-    top: 63%;
-    left: 13%;
-    width: 24%;
+.topimg-keitaikensyou {
+  position: absolute;
+  top: 63%;
+  left: 13%;
+  width: 24%;
 }
 /* Main Title */
-.topimg-title{
-    position: absolute;
-    top: 83%;
-    left: 13%;
-    width: 70%;
+.topimg-title {
+  position: absolute;
+  top: 83%;
+  left: 13%;
+  width: 70%;
 }
 
-.font-main{
-    font-size: 0.85em;
-    font-weight: bolder;
-    text-decoration: none;
-    color: #3c3737c7;
+.font-main {
+  font-size: 0.85em;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #3c3737c7;
 }
 
-nav> a{
-    font-weight: bolder;
+nav > a {
+  font-weight: bolder;
 }
 
-.main-top_bg{
-    display: inline;
-    margin-left: 20px;
+.main-top_bg {
+  display: inline;
+  margin-left: 20px;
 }
 
-.main-top_bg-img{
-    vertical-align: middle;
-    margin-right: 10px;
-    width: 30%;
+.main-top_bg-img {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 30%;
 }
 
-.main-img{
-    width: 100px;
-    height: 30px;
-  }
+.main-img {
+  width: 100px;
+  height: 30px;
+}
 
-.main-tile-img{
-    width: 100%;
- }
+.main-tile-img {
+  width: 100%;
+}
 
- /* Top logo font */
- .navbar a{
-     font-weight: bold;
- }
+/* Top logo font */
+.navbar a {
+  font-weight: bold;
+}
 
 /* お知らせ*/
-.main-osirase{
-    position: absolute;
-    display: inline;
-    top: 116%;
-    left: 18%;
+.main-osirase {
+  position: absolute;
+  display: inline;
+  top: 116%;
+  left: 18%;
 }
-.main-osirase-title-mojisize{
-    font-size: 0.9vw;
-    font-weight: bold;
-    color: rgb(16, 227, 255);
-    margin-top: 2px;
+.main-osirase-title-mojisize {
+  font-size: 0.9vw;
+  font-weight: bold;
+  color: rgb(16, 227, 255);
+  margin-top: 2px;
 }
-.main-osirase-subtitle-mojisize{
-    font-size: 0.7vw;
-    margin-left: 15px;
-    color: #3c3737c7;
+.main-osirase-subtitle-mojisize {
+  font-size: 0.7vw;
+  margin-left: 15px;
+  color: #3c3737c7;
 }
-.main-osirase-float{
-    float: left;
+.main-osirase-float {
+  float: left;
 }
 
 /*携帯動作検証 */
-.main-keitaidousaku-background{
-    height: 100%;
-    background-color: rgb(235, 250, 252);
-    position: relative;
-    top: 9%;
-    width: 100%;
+.main-keitaidousaku-background {
+  height: 100%;
+  background-color: rgb(235, 250, 252);
+  position: relative;
+  top: 12%;
+  width: 100%;
 }
-.main-keitaidousaku-abouttitle{
-    position: absolute;
-    top: 2%;
-    left: 16%;
-    width: 39%;
+.main-keitaidousaku-abouttitle {
+  position: absolute;
+  top: 2%;
+  left: 16%;
+  width: 39%;
 }
-.imgsize{
-    width: 100%;
+.imgsize {
+  width: 100%;
 }
-.main-keitaidousaku-map{
-    position: absolute;
-    top: 3%;
-    left: 48%;
-    width: 40%;
+.main-keitaidousaku-map {
+  position: absolute;
+  top: 3%;
+  left: 48%;
+  width: 40%;
 }
 
 /* コスト削減例 */
 
-.main-ex{
-    position: absolute;
-    top: 96%;
-    right: 0.2%;
-    width: 100%;
-    display: flex;
-    align-items: baseline;
+.main-ex {
+  position: absolute;
+  top: 96%;
+  right: 0.2%;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
 }
 
-.main-linebg{
-    position: absolute;
-    top: 113%;
-    right: 18%;
-    width: 150%;
+.main-linebg {
+  position: absolute;
+  top: 113%;
+  right: 18%;
+  width: 150%;
 }
 
-.main-cost-text-size{
-    font-size: 1vw;
-    color: #3c3737c7;
-    position: absolute;
-    top: 109%;
-    left: 15%;
-    line-height: 2.1;
+.main-cost-text-size {
+  font-size: 1vw;
+  color: #3c3737c7;
+  position: absolute;
+  top: 109%;
+  left: 15%;
+  line-height: 2.1;
 }
 
-.main-ex-rghit-divimgsize{
-    margin-left: 3%;
-    width: 100%;
+.main-ex-rghit-divimgsize {
+  margin-left: 3%;
+  width: 100%;
 }
 
-.main-ex-left-divimgsize{
-    width: 100%;
+.main-ex-left-divimgsize {
+  width: 100%;
 }
 
-.footerlisttwo{
-    margin-left: 10%;
+.footerlisttwo {
+  margin-left: 10%;
 }
-

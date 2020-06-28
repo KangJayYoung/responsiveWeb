@@ -1,333 +1,429 @@
 /* Web Start*/
-@media screen and (min-width: 1000px)and (max-width: 1240px) {
-    .page1 {
-        height: 1300px;
-        background-color: #fff;
-        background-size: cover;
-      }
-      .page2, .page2, .page3, .page5 {
-        height: 600px;
-        background-color: #fff;
-        background-size: cover;
-      }
-      .page4{
-        height: 500px;
-        background-color: #fff;
-        background-size: cover;
-      }
-
+@media screen and (min-width: 1000px) and (max-width: 1240px) {
+  .page1 {
+    height: 1300px;
+    background-color: #fff;
+    background-size: cover;
+  }
+  .page2,
+  .page2,
+  .page3,
+  .page5 {
+    height: 600px;
+    background-color: #fff;
+    background-size: cover;
+  }
+  .page4 {
+    height: 500px;
+    background-color: #fff;
+    background-size: cover;
+  }
 }
-@media screen and (min-width: 800px)and (max-width: 1000px) {
-    .page1 {
-        height: 1100px;
-        background-color: #fff;
-        background-size: cover;
-      }
-      .page2, .page2, .page3, .page5 {
-        height: 500px;
-        background-color: #fff;
-        background-size: cover;
-      }
-      .page4{
-        height: 500px;
-        background-color: #fff;
-        background-size: cover;
-      }
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .page1 {
+    height: 1100px;
+    background-color: #fff;
+    background-size: cover;
   }
-@media screen and (min-width: 700px)and (max-width: 800px) {
-    .page1 {
-        height: 900px;
-        background-color: #fff;
-        background-size: cover;
-      }
-      .page2, .page2, .page3, .page5{
-        height: 500px;
-        background-color: #fff;
-        background-size: cover;
-      }
-      .page4{
-        height: 600px;
-        background-color: #fff;
-        background-size: cover;
-      }
+  .page2,
+  .page2,
+  .page3,
+  .page5 {
+    height: 500px;
+    background-color: #fff;
+    background-size: cover;
   }
-  @media screen and (min-width: 600px)and (max-width: 700px) {
-    .page1 {
-        height: 900px;
-      }
-      .page2, .page2, .page3{
-        height: 340px;
-      }
-      .page4{
-        height: 340px;
-      }
-      .page5{
-        height: 340px;
-      }
+  .page4 {
+    height: 500px;
+    background-color: #fff;
+    background-size: cover;
   }
-  @media screen and (min-width: 500px)and (max-width: 600px) {
-    .page1 {
-        height: 900px;
-      }
-      .page2, .page2, .page3{
-        height: 300px;
-      }
-      .page4{
-        height: 260px;
-      }
-      .page5{
-        height: 220px;
-      }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .page1 {
+    height: 900px;
+    background-color: #fff;
+    background-size: cover;
   }
-  @media screen and (min-width: 400px)and (max-width: 500px) {
-    .page1 {
-        height: 900px;
-      }
-      .page2, .page2, .page3{
-        height: 300px;
-      }
-      .page4{
-        height: 260px;
-      }
-      .page5{
-        height: 220px;
-      }
+  .page2,
+  .page2,
+  .page3,
+  .page5 {
+    height: 500px;
+    background-color: #fff;
+    background-size: cover;
   }
-  @media screen and (min-width: 300px)and (max-width: 400px) {
-    .page1 {
-        height: 650px;
-      }
-      .page2, .page2, .page3{
-        height: 300px;
-      }
-      .page4{
-        height: 260px;
-      }
-      .page5{
-        height: 220px;
-      }
+  .page4 {
+    height: 600px;
+    background-color: #fff;
+    background-size: cover;
   }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .page1 {
+    height: 900px;
+  }
+  .page2,
+  .page2,
+  .page3 {
+    height: 340px;
+  }
+  .page4 {
+    height: 340px;
+  }
+  .page5 {
+    height: 340px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .page1 {
+    height: 900px;
+  }
+  .page2,
+  .page2,
+  .page3 {
+    height: 300px;
+  }
+  .page4 {
+    height: 260px;
+  }
+  .page5 {
+    height: 220px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .page1 {
+    height: 900px;
+  }
+  .page2 {
+    height: 300px;
+  }
+  .page3 {
+    height: 350px;
+  }
+  .page4 {
+    height: 270px;
+  }
+  .page5 {
+    height: 230px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .page1 {
+    height: 1000px;
+  }
+  .page2 {
+    height: 440px;
+  }
+  .page3 {
+    height: 560px;
+  }
+  .page4 {
+    height: 520px;
+  }
+  .page5 {
+    height: 340px;
+  }
+}
 
 /* Mobile Start*/
 
 /*携帯動作検証 */
-  @media screen and (min-width: 600px)and (max-width: 700px) {
-    .main-keitaidousaku-background{
-        height: 100%;
-        background-color: rgb(235, 250, 252);
-        position: relative;
-        top: 18%;
-        width: 100%;
-    }
-    /* mainTitle margine */
-    section h3 {
-      font-size: 1vw;
-      margin-top: -5px;
-      color: rgb(102, 102, 102);
-      text-align: center;
-      font-weight: normal;
-      line-height: 2em;
-      text-transform: uppercase;
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .main-keitaidousaku-background {
+    height: 100%;
+    background-color: rgb(235, 250, 252);
+    position: relative;
+    top: 18%;
+    width: 100%;
+  }
+  /* mainTitle margine */
+  section h3 {
+    font-size: 1vw;
+    margin-top: -5px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    font-weight: normal;
+    line-height: 2em;
+    text-transform: uppercase;
   }
   /* mainButton margine */
-    .check-img-button {
-      width: 5%;
-      display: inline-flex;
-      position: absolute;
-      top: 34%;
-      left: 10%;
-    }
-    .check-button-text {
-      display: inline-flex;
-      position: absolute;
-      left: 24%;
-      top: 21%;
-      color: #fff;
-      font-size: 1vw;
+  .check-img-button {
+    width: 5%;
+    display: inline-flex;
+    position: absolute;
+    top: 34%;
+    left: 10%;
+  }
+  .check-button-text {
+    display: inline-flex;
+    position: absolute;
+    left: 24%;
+    top: 21%;
+    color: #fff;
+    font-size: 1vw;
   }
   /* mainArrowButton margine */
-    .check-mosikomi-button {
-      width: 1%;
-      display: inline-flex;
-      position: absolute;
-      top: 102.4%;
-      left: 43.1%;
-    }
-    .check-mosikomi-text {
-      display: inline-flex;
-      position: absolute;
-      color: rgb(102, 102, 102);
-      left: 44.8%;
-      top: 101%;
-      font-size: 1vw;
+  .check-mosikomi-button {
+    width: 1%;
+    display: inline-flex;
+    position: absolute;
+    top: 102.4%;
+    left: 43.1%;
   }
+  .check-mosikomi-text {
+    display: inline-flex;
+    position: absolute;
+    color: rgb(102, 102, 102);
+    left: 44.8%;
+    top: 101%;
+    font-size: 1vw;
   }
-  @media screen and (min-width: 500px)and (max-width: 600px) {
-    .main-keitaidousaku-background{
-        height: 100%;
-        background-color: rgb(235, 250, 252);
-        position: relative;
-        top: 16%;
-        width: 100%;
-    }
-    /* お知らせ*/
-    .main-osirase{
-        position: absolute;
-        display: inline;
-        top: 134%;
-        left: 20%;
-    }
-    .main-osirase-subtitle-mojisize {
-        font-size: 0.7vw;
-        margin-left: 4px;
-        color: #3c3737c7;
-    }
-    /* main Button */
-    section h3 {
-      margin-top: 0px;
-      font-size: 1vw;
-      color: rgb(102, 102, 102);
-      text-align: center;
-      font-weight: normal;
-      line-height: 2em;
-      text-transform: uppercase;
-    }
-    .slefcheck-button-top {
-      width: 30%;
-    }
-    /* main arrow button */
-    .check-mosikomi-button {
-      width: 1%;
-      display: inline-flex;
-      position: absolute;
-      top: 102%;
-      left: 40.1%;
-    }
-    .check-mosikomi-text {
-      display: inline-flex;
-      position: absolute;
-      color: rgb(102, 102, 102);
-      left: 42.8%;
-      top: 100%;
-      font-size: 1vw;
-    }
-    /* footer margine*/
-    .footerlist-left {
-      margin-left: 0%;
-    }
-    .footerlist {
-      display: inline-flex;
-      list-style: none;
-    }
-     /* top selfcheck text margine */
-     .main-cost-text-size {
-      top: 280%;
-      left: 15%;
-      width: 150%;
-    }
-    .main-linebg {
-      top: 212%;
-      right: 18%;
-      width: 150%;
-    }
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .main-keitaidousaku-background {
+    height: 100%;
+    background-color: rgb(235, 250, 252);
+    position: relative;
+    top: 16%;
+    width: 100%;
   }
-  @media screen and (min-width: 400px)and (max-width: 500px) {
-    /* Iphone 6 mobaile text margine*/
-    .check-button-text {
-      left: 28%;
-      top: 22%;
-    }
+  /* お知らせ*/
+  .main-osirase {
+    position: absolute;
+    display: inline;
+    top: 134%;
+    left: 20%;
   }
-  @media screen and (min-width: 300px)and (max-width: 400px) {
-    .main-keitaidousaku-background{
-        height: 100%;
-        background-color: rgb(235, 250, 252);
-        position: relative;
-        top: 20%;
-        width: 100%;
-    }
-    /* お知らせ*/
-    .main-osirase{
-        position: absolute;
-        display: inline;
-        top: 124%;
-        left: 18%;
-    }
-    .main-osirase-subtitle-mojisize {
-        font-size: 0.7vw;
-        margin-left: 4px;
-        color: #3c3737c7;
-    }
-    /* main Button */
-    section h3 {
-      line-height: 2;
-      width: 64%;
-      margin-top: 0px;
-      
-    }
-    .slefcheck-button-top {
-      width: 30%;
-    }
-    /* main arrow button */
-    .check-mosikomi-button {
-      width: 1%;
-      display: inline-flex;
-      position: absolute;
-      top: 102%;
-      left: 40.1%;
-    }
-    .check-mosikomi-text {
-      display: inline-flex;
-      position: absolute;
-      color: rgb(102, 102, 102);
-      left: 42.8%;
-      top: 100%;
-      font-size: 1vw;
-    }
-    /* footer margine*/
-    .footerlist {
-      padding-left: 0%;
-    }
-    .mosikomi-button-text-location {
-      top: 24%;
-      left: 20%;
-    }
-    .check-img-button {
-      left: 11%;
-    }
-    .check-img-button {
-      top: 36%;
-      left: 13%;
-    }
-    .footerlist-left {
-      margin-left: 0%;
-    }
-    .tanmatulist-bution-text-loction {
-      left: 28%;
-      top: 23%;
-    }
-    /* Iphone 6 mobaile text margine*/
-    .check-button-text {
-      left: 22%;
-      top: 22%;
-    }
-    .check-mosikomi-text {
-      left: 41.8%;
-    }
-    .check-mosikomi-button {
-      left: 39.1%;
-    }
-    /* top selfcheck text margine */
-    .main-cost-text-size {
-      width: 150%;
-      top: 258%;
-      left: 22%;
-    }
-    .main-linebg {
-      top: 203%;
-      right: 18%;
-      width: 150%;
-    }
+  .main-osirase-subtitle-mojisize {
+    font-size: 0.7vw;
+    margin-left: 4px;
+    color: #3c3737c7;
   }
-
-  
+  /* main Button */
+  section h3 {
+    margin-top: 0px;
+    font-size: 1vw;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    font-weight: normal;
+    line-height: 2em;
+    text-transform: uppercase;
+  }
+  .slefcheck-button-top {
+    width: 30%;
+  }
+  /* main arrow button */
+  .check-mosikomi-button {
+    width: 1%;
+    display: inline-flex;
+    position: absolute;
+    top: 102%;
+    left: 40.1%;
+  }
+  .check-mosikomi-text {
+    display: inline-flex;
+    position: absolute;
+    color: rgb(102, 102, 102);
+    left: 42.8%;
+    top: 100%;
+    font-size: 1vw;
+  }
+  /* footer margine*/
+  .footerlist-left {
+    margin-left: 0%;
+  }
+  .footerlist {
+    display: inline-flex;
+    list-style: none;
+  }
+  /* top selfcheck text margine */
+  .main-cost-text-size {
+    top: 280%;
+    left: 15%;
+    width: 150%;
+  }
+  .main-linebg {
+    top: 212%;
+    right: 18%;
+    width: 150%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  /* Iphone 6 mobaile text margine*/
+  .check-button-text {
+    left: 28%;
+    top: 22%;
+  }
+  .main-osirase {
+    top: 130%;
+  }
+  .main-keitaidousaku-abouttitle {
+    width: 70%;
+  }
+  .main-cost-text-size {
+    font-size: 9px;
+    top: 325%;
+    left: 8%;
+    width: 100%;
+  }
+  .main-keitaidousaku-map {
+    top: 13%;
+    left: 21%;
+    width: 58%;
+  }
+  .main-linebg {
+    top: 200%;
+    right: -25%;
+    width: 150%;
+  }
+  section h2 {
+    font-size: 20px;
+  }
+  section h3 {
+    font-size: 10px;
+  }
+  .slefcheck-button-top {
+    width: 43%;
+  }
+  .check-img-button {
+    width: 6%;
+    top: 32%;
+    left: 16%;
+  }
+  .check-button-text {
+    left: 28%;
+    top: 24%;
+    font-size: 10px;
+  }
+  .check-mosikomi-button {
+    width: 3%;
+    top: 102%;
+    left: 35.1%;
+  }
+  .check-mosikomi-text {
+    left: 39.8%;
+    top: 101%;
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  section h3 {
+    font-size: 15px;
+  }
+  section h2 {
+    font-size: 18px;
+  }
+  /* main */
+  .main-keitaidousaku-background {
+    height: 100%;
+    background-color: rgb(235, 250, 252);
+    position: relative;
+    top: 12%;
+    width: 100%;
+  }
+  .main-keitaidousaku-abouttitle {
+    position: absolute;
+    top: 2%;
+    left: 16%;
+    width: 70%;
+  }
+  .main-keitaidousaku-map {
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    width: 69%;
+  }
+  /* お知らせ*/
+  .main-osirase {
+    position: absolute;
+    display: inline;
+    top: 124%;
+    left: 18%;
+  }
+  .main-osirase-subtitle-mojisize {
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 4px;
+    width: 180px;
+    color: #3c3737c7;
+  }
+  /* main Button */
+  section h3 {
+    line-height: 2;
+    width: 64%;
+    margin-top: 0px;
+  }
+  .slefcheck-button-top {
+    width: 50%;
+  }
+  /* main arrow button */
+  .check-mosikomi-button {
+    width: 1%;
+    display: inline-flex;
+    position: absolute;
+    top: 102%;
+    left: 40.1%;
+  }
+  .check-mosikomi-text {
+    display: inline-flex;
+    position: absolute;
+    color: rgb(102, 102, 102);
+    left: 42.8%;
+    top: 100%;
+    font-size: 1vw;
+  }
+  /* footer margine*/
+  .footerlist {
+    padding-left: 0%;
+  }
+  .mosikomi-button-text-location {
+    top: 24%;
+    left: 20%;
+  }
+  .check-img-button {
+    left: 11%;
+  }
+  .check-img-button {
+    width: 7%;
+    top: 32%;
+    left: 15%;
+  }
+  .footerlist-left {
+    margin-left: 0%;
+  }
+  .tanmatulist-bution-text-loction {
+    left: 28%;
+    top: 23%;
+  }
+  /* Iphone 6 mobaile text margine*/
+  .check-button-text {
+    font-size: 12px;
+    left: 26%;
+    top: 25%;
+  }
+  .check-mosikomi-text {
+    left: 37.8%;
+    top: 100%;
+    font-size: 12px;
+  }
+  .check-mosikomi-button {
+    width: 4%;
+    top: 100.6%;
+    left: 32.1%;
+  }
+  /* top selfcheck text margine */
+  .main-cost-text-size {
+    font-size: 12px;
+    width: 100%;
+    top: 343%;
+    left: 3%;
+  }
+  .main-linebg {
+    top: 250%;
+    right: 1%;
+    width: 110%;
+  }
+}
