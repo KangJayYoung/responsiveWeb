@@ -1,9 +1,9 @@
-html{
+html {
   font-size: 100%;
 }
-body{
+body {
   margin: 0;
-  font-family: 'Noto Sans JP', sans-serif !important;
+  font-family: "Noto Sans JP", sans-serif !important;
 }
 nav {
   width: 100%;
@@ -61,10 +61,10 @@ footer {
   padding: 0;
   margin: 0;
   text-align: center;
-  background-color: rgba(231, 231, 231, 0.714);;
+  background-color: rgba(231, 231, 231, 0.714);
 }
 
-.footerlist{
+.footerlist {
   display: inline-flex;
   padding-left: 0;
   list-style: none;
@@ -109,14 +109,14 @@ footer {
   background-size: cover;
 }
 
-.main-nav{
+.main-nav {
   margin-right: 5.5%;
   margin-left: 1%;
   vertical-align: middle;
 }
 
-.full-img{
-  width: 100%;
+.full-img {
+  width: 100vw;
 }
 
 /* Global */
@@ -133,7 +133,7 @@ footer {
 
 body {
   margin: 0;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
 
 a {
@@ -202,15 +202,15 @@ a {
 /* For small screen */
 @media screen and (max-width: 768px) {
   /* Logo with text */
-.navbar__logo a{
-  display: none;
- }
+  .navbar__logo a {
+    display: none;
+  }
 
-.navbar__logo i {
-  display: none;
-  color: var(--accent-color);
- }
-   
+  .navbar__logo i {
+    display: none;
+    color: var(--accent-color);
+  }
+
   /* Nav container */
   .navbar {
     flex-direction: column;
@@ -226,7 +226,7 @@ a {
     width: 100%;
     margin-top: 40%;
     margin-left: 0;
-    background-color: var( --mobaile-background-color);
+    background-color: var(--mobaile-background-color);
   }
 
   .navbar__menu a {
