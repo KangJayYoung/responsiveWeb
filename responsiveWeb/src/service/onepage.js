@@ -14,9 +14,13 @@ toggleBtn.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
 
+// text file read
+const OSIRASE01 = "./osirase1.txt";
+const OSIRASE02 = "./osirase2.txt";
+var osiraseList = [OSIRASE01, OSIRASE02];
 window.onload = () => {
-  for (var i = 0; i <= 3; i++) {
-    readTextFile("./osirase.txt");
+  for (var i = 0; i <= osiraseList.length; i++) {
+    readTextFile(this.osiraseList[i]);
   }
 };
 // text file read
